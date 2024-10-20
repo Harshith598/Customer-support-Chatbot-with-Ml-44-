@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot with GPT</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="chatbot-container">
+      <div class="chat-header">
+        <h1>AI Support Chat</h1>
+      </div>
+      <div id="chat-output" class="chat-output"></div>
+      <div class="input-container">
+        <textarea
+          id="chat-input"
+          class="chat-input"
+          placeholder="Type your message..."
+        ></textarea>
+        <button class="send-button" onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
